@@ -8,9 +8,12 @@ Print out the man page and post it above / close to your Moccamaster! Enforce th
 ## Test / review
 
 $ man 1 ./moccamaster.1
-
+*or*
+$ make view
 
 ## Create PDF
 
 $ man -t 1 ./moccamaster.1 | ps2pdf - moccamaster.pdf
+*or*
+$ make pdf
 
